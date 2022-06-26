@@ -10,3 +10,8 @@ export const Colors = [
 ] as const
 
 export const Sizes = ['sm', 'xs', 'lg'] as const
+
+export enum ThemeTypes {
+    dark = 'night',
+    light = 'light'
+}

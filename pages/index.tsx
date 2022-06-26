@@ -1,13 +1,14 @@
-import * as React from 'react';
-import Button from "../components";
+import * as React from 'react'
+import { Button, Modal, Navbar } from "../components/"
 
 function Home() {
+
     return (
         <React.Fragment>
-            <Button color="error">Button</Button>
-            <Button color="primary">Button</Button>
-            <Button color="secondary">Button</Button>
-            <Button color="info">Button</Button>
+            <Navbar />
+            <Button>TEST</Button>
+            <Button color='error'>TEST</Button>
+            <Button color='accent'>TEST</Button>
         </React.Fragment>
     )
 }
